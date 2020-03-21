@@ -1,0 +1,136 @@
+body{
+    margin:0;
+    padding:10px;
+    background: #8729FF;
+    font-family: 'Poppins', sans-serif !important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.uploadForm{
+    padding: 5vw;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.uploadForm input{
+    display: block;
+    color: #8729FF;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif !important;
+    padding: 10px 2px;
+}
+.uploadForm .input:active,.uploadForm .input:focus{
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-bottom: solid 1px #8729FF !important;
+}
+
+.uploadProcess{
+    display: none;
+}
+
+
+#file{
+    margin-top: 20px;
+}
+button,.cusBtn{
+    background-color: #8729FF !important;
+    box-shadow: none !important;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.animation{
+    background: white;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+.animation h2{
+    margin:0;
+    font-weight: bold;
+}
+.animation p{
+    color:#8729FF;
+}
+
+
+.files{
+    padding: 3vw;
+}
+
+.item{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.item h4{
+    font-weight: bold;
+     color: #8729FF;
+     margin: 0;
+}
+
+.item p{
+    color:#2d2d2d;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.item .down{
+    margin-top: 10px;
+}
+
+.item .date{
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: rgb(167, 167, 167);
+}
+
+.btnAlt{
+    background-color: white !important;
+    color: #8729FF;
+}
+.logo{
+    font-weight: bol;
+}
+.navigation{
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom:20px;
+}
+

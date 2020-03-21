@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Compiled and minified CSS -->
+     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="./styles/style.css" rel="stylesheet">
+    
+     <title>File Upload</title>
+</head>
+<body>
+    <section class="files">
+        <nav class="navigation">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo logo"><i class="fa fa-tasks" aria-hidden="true"></i>
+
+                    FileRepo</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="./index.html" class="btn cusBtn btnAlt">Upload</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul id="list">
+
+        </ul>
+    </section>
+</body>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>      
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+<script src="./scripts/fbconfig.js"></script>
+<script src="./scripts/files.js"></script>
+</html>

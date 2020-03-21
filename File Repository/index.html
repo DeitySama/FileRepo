@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="./styles/style.css" rel="stylesheet">
+    <title>File Repository</title>
+</head>
+<body>
+    <section>
+        <form class="uploadForm" id="upload">
+            <input type="text" name="filename" id="filename" placeholder="Filename" class="input" required>
+            <input type="text" name="description" id="description" placeholder="Description"  class="input" required>
+            <input type="file" name="file" id="file" required>
+            <button class="btn">Upload</button>
+        </form>
+    </section>
+
+    <section class="uploadProcess">
+        <div class="animation">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player
+                src="https://assets3.lottiefiles.com/packages/lf20_wlSAOz.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay >
+            </lottie-player>
+            <h2>"Hold Up Hero"</h2>
+            <p>Uploading ...</p>
+        </div>
+
+    </section>
+</body>
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>      
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+<script src="./scripts/fbconfig.js"></script>
+<script src="./scripts/script.js"></script>
+</html>
